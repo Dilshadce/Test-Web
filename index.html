@@ -1,0 +1,540 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Molly | Home :: w3layouts</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+</script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
+<!--/fonts-->
+<!--js--> 
+<script src="js/jquery.min.js"></script>
+<!--/js-->
+<!--animated-css-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!--/animated-css-->
+<!--gallery-->
+<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+<script type="text/javascript" src="js/jquery.gallery.js"></script>
+<script type="text/javascript">
+		$(function() {
+		$('#dg-container').gallery({
+		autoplay	:	true
+	});
+});
+</script>
+<!--/gallery-->
+<!--script-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+
+</head>
+<body>
+<!--top-nav-->
+<div class="top-nav">
+	 <div class="container">
+		 <div class="logo">
+		    <a href="#"><img src="images/logo.png" class="img-responsive" alt=""/></a>
+		 </div>
+	     <div class="nav">
+		     <span class="menu"> </span> 
+			 <ul>
+				 <li><a class="scroll" href="#home">HOME</a></li>
+				 <li><a class="scroll" href="#services">SERVICES</a></li>
+				 <li><a class="scroll" href="#cctv">CCTV</a></li>
+				 <li><a class="scroll" href="#webdesign">WEB DESIGN</a></li>
+				 <li><a class="scroll" href="#interior">INTERIOR DESIGNING</a></li>
+				 <li><a class="scroll" href="#about">ABOUT US</a></li>
+				 <li><a class="scroll" href="#contact">CONTACT US</a></li>
+				 <div class="clearfix"> </div>
+			 </ul>
+		 </div>
+		 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".nav ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+		 <!--script-nav-->
+
+	 </div>
+</div>
+<!--top-nav ends-->
+<!--banner-->
+<div id="home" class="banner">
+     <div class="banner-head">
+	     <div class="container">
+		      <!--banner Slider starts Here-->
+	  			<script src="js/responsiveslides.min.js"></script>
+			   <script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 4
+					  $("#slider4").responsiveSlides({
+						auto: true,
+						pager: true,
+						nav: false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						  $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+						  $('.events').append("<li>after event fired.</li>");
+						}
+					  });
+				
+					});
+			  </script>
+			 <!--//End-slider-script-->
+			 <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			         <li>
+						  <div class="banner-head-info"> 
+							 <h4>Hello,we are<span> SoftNet </span>,and we offer</h4>
+							 <h1>CCTV</h1>
+							 <p class="title">" Our mission is your protection not only in Home but also in business places with our security monitors and Systems certified by the highest standards "</p>
+						 <div class="banner-Get-started">
+								<a href="#">GET STARTED</a>
+							 </div>
+						  </div>
+			         </li>
+			         <li>
+			             <div class="banner-head-info">					    
+			          	 <h4>Hello,we are<span> SoftNet </span>,and we offer</h4>
+			          	 <h1>WEBSITE</h1>
+						 <p class="title">" We don't just build websites, we build websites that SELLS.Websites promote you 24/7: No employee will do that "</p>
+			             <div class="banner-Get-started">
+						 <a href="#">GET STARTED</a>
+					      </div>
+					     </div>
+			         </li>
+			         <li>
+			             <div class="banner-head-info">					    
+			          	 <h4>Hello,we are<span> SoftNet </span>,and we offer</h4>
+			             <h1>SYSTEM SUPPORT</h1>
+						 <p class="title">" We offer best-in-class support for your systems in software,hardware and networking solutions with quality "</p>
+			             <div class="banner-Get-started">
+						 <a href="#">GET STARTED</a>
+					     </div>
+					     </div>
+			         </li>
+			         <li>
+			             <div class="banner-head-info">					    
+			          	 <h4>Hello,we are<span> SoftNet </span>,and we offer</h4>
+			             <h1>INTERIOR DESIGNING</h1>
+						 <p class="title">" We offer best-in-class support for your systems in software,hardware and networking solutions with quality "</p>
+			             <div class="banner-Get-started">
+						 <a href="#">GET STARTED</a>
+					     </div>
+					     </div>
+			         </li>
+			      </ul>
+			  </div>
+			    <div class="clearfix"> </div>
+	      </div>
+     </div>
+</div>
+<!--banner-->
+
+<!--SERVICES-->
+<div id="services" class="services">
+	 <h2>SERVICES</h2>
+	 <img src="images/service.png" alt=""/>
+	 <p><b>WE OFFER BEST-IN-TOWN TECHNICAL,NETWORKING & SURVEILLANCE SERVICES WITH QUALITY ASSURED</b></p>
+	 <div class="container">
+		 <div class="service-grids">
+			  <div class="col-md-3 service-grid">
+				  <a href="#cctv"><span class="icon1"></span></a>
+				  <lable> </lable>
+				  <h4>CCTV SALES & SERVICE</h4>
+				  <p>At SoftNet, protecting your home or business is our business.We will design and install your complete surveillance solution for any type of business, residential or community scenario.</p>
+			  </div>
+			  <div class="col-md-3 service-grid">
+				  <a href="#webdesign"><span class="icon2"></span></a>
+				  <lable> </lable>
+				  <h4>WEB DEVELOPMENT</h4>
+				  <p>Beautiful design spiced with advanced technology helps us create a website that is loved by the users.We do not just web design, but out-of-the box digital experiences that takes your business to the next level!</p>
+			  </div>
+			  <div class="col-md-3 service-grid">
+				  <a href="#contact"><span class="icon3"></span></a>
+				  <lable> </lable>
+				  <h4>SYSTEM SUPPORT</h4>
+				  <p>One-stop destination for all your system needs. We offer solution for <b>Software</b> (incl. Application & System), <b>Hardware and Networking </b>queries with quality.We will provide an efficient answer to your Desktop and Laptop problems. </p>
+			  </div>
+			  <div class="col-md-3 service-grid">
+				  <a href="#interior"><span class="icon4"></span></a>
+				  <h4>INTERIOR DESIGNING</h4>
+				  <p>Searching for the pioneer in interior designing? Or a contractor to realise your dream of an elegant home or office space in Kerala? Look no further. We can give excellent and stylish home and commercial designs and execute them to perfection.</p>
+		      </div>
+				<div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!--SERVICE-->
+<!--portfolio-->
+<div id="cctv" class="portfolio">
+   <div class="portfolio-head">
+	 <h2>CCTV</h2>
+	 <img src="images/service.png" alt=""/>
+	 <p>Our in-depth knowledge spans across CCTV, access control, and all kinds of security systems. Our services are far-reaching and include CCTV installation, responsive repair, remote monitoring, access control and more. We also offer our clients expert advice, where we can assess your requirements in order to offer you the best protection and monitoring systems whether at home or in the workplace.</p>
+	 <p>We can incorporate CCTV remote monitoring, or design and install an access control system. Whatever your specifications, we can provide a bespoke service, catering completely to your needs, including a full security package for commercial businesses. We provide specialist engineers to install your security cameras, alarm systems and whatever else requires installation. This way, you know you can trust what you are getting will do the job that is required.</p>
+	 <p>Whether a simple, small job, or a large security system installation, we put customer service at the heart of what we do to make sure your individual needs are met. Additionally, we offer maintenance packages, so you can rest assured that the systems you have in place post-installation will continue to work well.</p>
+	 </div>
+	 <br>
+<!--MOLLY-->
+<div class="molly">
+<h3>CCTV EXPERTS - DESIGN - INSTALL & MAINTAIN</h3>
+<p><i>Every one of our installs are delivered by specialised engineers specifically skilled in their area of work.</i></p>
+<div class="molly-Get-started">
+  <a href="#">GET STARTED</a>
+</div>
+<div class="clearfix"></div>
+<section id="dg-container" class="dg-container">
+   <div class="dg-wrapper">
+					<a href="#"><img src="images/1.jpg" alt="image1" /></a>
+					<a href="#"><img src="images/2.jpeg" alt="image2" /></a>
+					<a href="#"><img src="images/3.jpg" alt="image3" /></a>
+					<a href="#"><img src="images/4.jpg" alt="image4" /></a>
+					<a href="#"><img src="images/5.jpg" alt="image5" /></a>
+					<a href="#"><img src="images/6.jpg" alt="image1" /></a>
+	</div>
+</section>
+ </div>
+<!--MOLLY ends-->
+
+<div class="clearfix"></div>
+
+
+  <div class="clearfix"></div>
+<div class="portfolio-video"> 
+	  <div class="portfolio-video-grids">
+		  <div class="col-md-6 video">
+				<iframe src="https://www.youtube.com/embed/NupY3DBIkjQ"></iframe>
+				<p><a href="https://www.youtube.com/watch?v=NupY3DBIkjQ"></a>
+		  </div>
+		  <div class="col-md-6 portfolio-video-head">
+				<h3>DVR & NVR</h3>
+				<h4><i>We provide latest techniques in surveillance system. </i></h4>
+				<p>At the core, both NVR and DVRs are responsible for video recording. DVR stands for Digital Video Recorder, whereas NVR stands for Network Video Recorder. The difference between NVR and DVR is how they process video data. DVR systems process the video data at the recorder, whereas NVR systems encode and process the video data at the camera, then stream it to the NVR recorder which is used for storage and remote viewing. As DVRs and NVRs handle the video data differently, they require different types of cameras. Most NVRs are used with IP cameras whereas DVRs are used with analog cameras. It&apos;s important to note that a DVR based system is a wired security system, whereas NVR systems can be a wired or wireless system.</p>
+				<div class="portfolio-Get-started">
+					<a href="https://www.swann.com/blog/dvr-vs-nvr-whats-the-difference/#:~:text=DVR%20stands%20for%20Digital%20Video,how%20they%20process%20video%20data.&text=Most%20NVRs%20are%20used%20with,are%20used%20with%20analog%20cameras." target="blank">READ MORE..</a>
+				</div>
+		  </div>
+		  <div class="clearfix"></div>
+	  </div>
+  </div>
+</div>
+<!--portfolio-->
+
+<!--WEB DESIGN-->
+<div id="webdesign" class="blog">
+	 <h2>WEB DESIGN</h2>
+	 <img src="images/service.png" alt=""/>
+	 <p>Our expert in-house team uses cutting edge technologies to build custom web applications that are stunning, robust, secure and scalable and we follow agile development methodology to ensure flexibility and faster delivery.We Use Innovation And New Ideas In Making The Process Of Web Development Smooth And Fast.</p>
+</div>
+<!--WEB DESIGN Ends-->
+<!--SERVICES BANNER-->
+<div id="web" class="service-banner">
+	  <div class="service-banner-layer">
+	     <div class="container service-banner-layer-info">
+	          <div class="col-md-6 tab">
+			  <span></span>
+			  </div>
+	           <div class="col-md-6 service-info">
+			      <h3>WE MAKE WEB DESIGN</h3>
+			      <p>We have an excellent team of web development experts who are constantly experimenting and implementing innovative ideas that will transform website designs into a gold mine for your business.</p>
+			      <div class="service-nav">
+					  <ul>
+					  <li><a href="#"><span></span>CLEAN AND MODERN DESIGN</a></li> 
+					  <li><a href="#"><span></span>FULLY RESPONSIVE</a></li> 
+					  <li><a href="#"><span></span>SINGLEPAGE & MULTIPAGE</a></li> 
+					  <li><a href="#"><span></span>GREAT FOR ANY BUSSINESS</a></li> 
+					  <li><a href="#"><span></span>E-COMMERCE OR BUSINESS PAGE</a></li> 
+					  </ul>
+			     </div>
+		      </div>
+		      <div class="clearfix"></div>
+	     </div>
+      </div>
+	 <!--SERVICES Footer-->	  
+	 <div class="service-footer">
+		  <div class="Get-started">
+			  <a href="#contact">GET STARTED</a>
+		  </div>
+	 </div>
+	 <!--SERVICES Footer-->	  
+</div>
+<!--SERVICES BANNER ENDS-->
+<div class="clearfix"></div>
+
+<div id="interior" class="blog">
+	 <h2>INTERIOR DESIGNING</h2>
+	 <img src="images/service.png" alt=""/>
+	 <p>Our expert in-house team uses cutting edge technologies to build custom web applications that are stunning, robust, secure and scalable and we follow agile development methodology to ensure flexibility and faster delivery.We Use Innovation And New Ideas In Making The Process Of Web Development Smooth And Fast.</p>
+	 <br><br>
+
+	<div style="margin-left: 50px;margin-right: 50px">
+	 <div class="col-sm-4" style="background-color: #808080;" >
+	 	<h3 style="text-align: center;font-size: 18px;color:orange"><b>RESIDENTIAL INTERIOR DESIGN</b></h3>
+	 	<p style="text-align: justify;width:100%;padding-left: 10px;padding-right: 20px;padding-bottom: 20px">Home is where your heart is. Hence, everybody wants a home that is comfortable and luxurious as per one’s own taste and has a distinct ‘homely’ feeling to it, which leads to the importance of interior designing & interior designers especially in home interior designing. Greentech Interiors, the best interior designers in Kochi, has been creating and designing residential spaces of all kinds since past 20 years. With a flair for understanding the space constraints and requirements, armed with a hardworking team of highly qualified interior designers, a plethora of successfully completed projects and a hard earned reputation that speaks for itself, Gradually Greentech Interiors confirms the position as the leading interior designers in Kochi, Kerala.</p>
+	 	
+	 </div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">	 	
+    	<h3 style="text-align: center;font-size: 18px"><b>COMMERCIAL INTERIOR DESIGN</b></h3>
+    	<p style="text-align: justify;width:100%;padding-left: 10px;padding-right: 20px;padding-bottom: 20px">Home is where your heart is. Hence, everybody wants a home that is comfortable and luxurious as per one’s own taste and has a distinct ‘homely’ feeling to it, which leads to the importance of interior designing & interior designers especially in home interior designing. Greentech Interiors, the best interior designers in Kochi, has been creating and designing residential spaces of all kinds since past 20 years. With a flair for understanding the space constraints and requirements, armed with a hardworking team of highly qualified interior designers, a plethora of successfully completed projects and a hard earned reputation that speaks for itself, Gradually Greentech Interiors confirms the position as the leading interior designers in Kochi, Kerala.</p>
+	</div>
+    <div class="col-sm-4" style="background-color:lavender;">
+	 	<h3 style="text-align: center;font-size: 18px"><b>OFFICE INTERIOR DESIGN</b></h3>
+	 	<p style="text-align: justify;width:100%;padding-left: 10px;padding-right: 20px;padding-bottom: 20px">Home is where your heart is. Hence, everybody wants a home that is comfortable and luxurious as per one’s own taste and has a distinct ‘homely’ feeling to it, which leads to the importance of interior designing & interior designers especially in home interior designing. Greentech Interiors, the best interior designers in Kochi, has been creating and designing residential spaces of all kinds since past 20 years. With a flair for understanding the space constraints and requirements, armed with a hardworking team of highly qualified interior designers, a plethora of successfully completed projects and a hard earned reputation that speaks for itself, Gradually Greentech Interiors confirms the position as the leading interior designers in Kochi, Kerala.</p>
+    </div>
+	</div>
+	 <div class="clearfix"></div>
+
+	
+
+ <div class="container">
+	      <ul id="filters" class="clearfix wow bounceIn" data-wow-delay="0.4s">
+			<li><span class="filter active" data-filter="app card icon logo fun">ALL</span></li>
+			<li><span class="filter" data-filter="app">WEB DESIGN</span></li>
+			<li><span class="filter" data-filter="card">GRAPHIC DESIGN</span></li>
+			<li><span class="filter" data-filter="icon">PHOTOGRAPHY</span></li>
+			<li><span class="filter" data-filter="fun">APPS</span></li>
+	       </ul>
+	     <div id="portfoliolist">
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/img1.jpg" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>				
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/img3.jpg" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>		
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/img2.jpg" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>				
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/img4.jpg" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>	
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/img5.jpg" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>			
+					<div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/img6.jpg" class="img-responsive" alt=""/></a>
+		                </div>
+			      </div>
+		   <div class="clearfix"></div>	
+	  </div>
+</div>	  
+<!-- Script for gallery Here-->
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script type="text/javascript">
+	$(function () {
+		var filterList = {
+		init: function () {
+// MixItUp plugin
+// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+				// call the hover effect
+				onMixEnd: filterList.hoverEffect()
+	});				
+},
+		hoverEffect: function () {
+// Simple parallax effect
+		$('#portfoliolist .portfolio').hover(
+			function () {
+			$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+			$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+			},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+			}		
+		);				
+	}
+};
+// Run the show!
+		filterList.init();
+	});	
+</script>
+<!--Gallery Script Ends-->
+<div class="clearfix"></div>
+<div class="portfolio-showmore">
+  <a href="#">SHOW MORE</a>
+</div>
+
+
+</div>
+
+
+<!--ABOUT-->
+ <div id="about" class="about">
+	 <h2>ABOUT US</h2>
+	 <img src="images/service.png" alt=""/>
+	 <p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus 
+		 convallis quis ac lectus. Quisque velit nisi,pretium ut lacinia in, elementum id enim.</p>
+	 <div class="about-grids">
+		 <div class="col-md-4 left-img">
+		 <img src="images/company.jpg" class="img-responsive" alt=""/>
+		 </div>
+		 <div class="col-md-4 middle">
+			 <a href="#"><h3>John Doe</h3></a>
+			 <h5>CREATIVE DIRECTOR</h5>
+			 <h6>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
+			 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt..</h6>
+			 <h6>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
+			 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt..</h6>
+			  <div class="social-icons">
+				 <a href="#"><span class="icon1"> </span></a>
+				 <a href="#"><span class="icon2"> </span></a>
+				 <a href="#"><span class="icon3"> </span></a>
+			 </div>
+		 </div>
+		 <div class="col-md-4 right-img">
+		 <img src="images/head.jpg" class="img-responsive" alt=""/>
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!---ABOUT ends-->
+<!--AD-->
+<div class="ad">
+	 <div class="container">
+		 <div class="ad-grids">
+			 <div class="col-md-6 skill-grid">
+				 <h4>SKILLS</h4>
+				 <div class="skill-head">
+					  <p>HTML & CSS</p>
+					  <span><lable></lable></span>
+					  <p>AI & PS</p>
+					  <span><lable></lable></span>
+					  <p>JSS & PHP</p>
+					  <span><lable></lable></span>
+					  <p>PHOTOGRAPHY</p>
+					  <span><lable></lable></span>
+				 </div>
+			 </div>
+		 
+			 <div class="col-md-6 skill-about">
+				  <h4>ABOUT COMPANY</h4>
+				 <h6>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
+				 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.
+				 Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.</h6>
+				 <h6>Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Pellentesque in ipsum id orci porta 
+				 dapibus. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt.
+				 Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.</h6>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!--AD ends-->
+
+
+
+<!--SUBSCRIBE-->
+<div class="subscribe">
+	 <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+	 <form>
+		 <input type="text" class="text" value="You mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'You mail';}">
+		 <input type="submit" value="SUBSCRIBE">
+	 </form>
+</div>
+<!--SUBSCRIBE Ends-->
+<!--CONTACT-->
+<div id="contact" class="contact">
+	 <div class="contact-head">
+		 <div class="container">
+			 <h2>CONTACT US</h2>
+			 <img src="images/service.png" alt=""/>
+			 <p>Please send us your enquiries, and we will get back to you as soon as possible.</p>
+		 </div>
+		 <form enctype="multipart/form-data" method=post>
+			 <input type="text" class="text" placeholder="Your Name" required name="nam">
+			 <input type="email" class="text" placeholder="Your mail" name="ema">
+			 <input type="text" class="text" placeholder="Phone Number"  pattern="[0-9]{10}" required name="ph">
+			 <textarea onfocus="if(this.value == 'Enter Message Here') this.value='';" onblur="if(this.value == '') this.value='Enter Message Here';" name="msg">Enter Message Here</textarea>	
+			 <div class="clearfix"></div>
+			 <input type="submit" value="SEND MESSAGE" name="b1">
+		 </form>
+	 </div>
+</div>
+<!--CONTACT Ends-->
+<!--FOOTER-->
+<div class="footer">
+	 <div class="footer-head">
+		 <h5>softnet@gmail.com</h5>
+		 <h6>+91-9656138539</h6>
+		 <div class="footer-social-icons">
+			 <a href="#"><span class="facebook"> </span></a>
+			 <a href="#"><span class="twitter"> </span></a>
+			 <a href="#"><span class="googleplus"> </span></a>
+			 <a href="#"><span class="wifi"> </span></a>
+			 <a href="#"><span class="tribble"> </span></a>
+			 <a href="#"><span class="flicker"> </span></a>
+			 <a href="#"><span class="skype"> </span></a>
+		 </div>
+		
+	 </div>
+</div>
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
